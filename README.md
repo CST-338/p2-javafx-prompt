@@ -6,12 +6,12 @@
 > in Part 0; you do not build the project from scratch.
 
 You will work as a team of **3 to 4 students** to build a JavaFX desktop application, but you
-are graded as an **individual**. Each of students owns one complete **feature slice** of the app end
+are graded as an **individual**. Each of you owns one complete **feature slice** of the app end
 to end, and your grade is driven mostly by *how you work*: your GitHub contributions, your code
 reviews, and your teamwork, with concrete code milestones along the way.
 
 The project is **5 assignments** (Part 0 through Part 4). 
-Part 4 is worth mentioning because it is about half the total points it is where your finished work comes together. 
+Part 4 is about half the total points, because that is where your finished work comes together. 
 Two further assignments sit alongside the project: 
   - a **Presentation** (5 points, graded individually) 
   - a **Teammate Evaluation** (10 points).
@@ -24,39 +24,21 @@ Each assignment is graded **per student** against its own rubric.
 Your score reflects your own slice and your own process. 
 A teammate's shortfall does not lower your grade, and you cannot inherit their points.
 
-### Points per assignment
+### What the project measures
 
-| Assignment | Focus | Points |
-| :---- | :---- | :----: |
-| **Part 0: Team & Slices** | planning, team building | 10 |
-| **Part 1: The Plan** | design, issues, scope | 10 |
-| **Part 2: Data & Scenes** | Milestone 1 | 15 |
-| **Part 3: Reviews** | code review | 15 |
-| **Part 4: Final Application** | Milestone 2, integration | 50 |
-| | **Project total** | **100** |
-| *Presentation* | *in class, graded individually* | *5* |
-| *Teammate Evaluation* | *separate* | *10* |
+| Area | What it measures |
+| :---- | :---- |
+| **Feature slice** | Your scenes work, CRUD runs through your DAO, your logic is correct, your enhancements are applied |
+| **Testing** | Your unit and UI tests, a failure-path test, plus AI-drafted-then-curated tests with a reflection |
+| **GitHub contributions** | `username/feature` branches, **3+ merged Pull Requests**, 3+ issues closed by linked PRs |
+| **Code review** | Substantive reviews of others' PRs, one AI code review you adjudicate, one cross-team review |
+| **Teamwork / integration** | The assembled app builds and runs, the scene factory wires all slices, your README and issues stay current |
 
-### What the 100 points measure
+Every area is measured in every assignment that touches it, and the weight shifts toward the
+later parts as there is more finished work to measure.
 
-| Area | Points | What it measures |
-| :---- | :----: | :---- |
-| **Feature slice** | 30 | Your scenes work, CRUD runs through your DAO, your logic is correct, your enhancements are applied |
-| **Testing** | 15 | Your unit and UI tests, a failure-path test, plus AI-drafted-then-curated tests with a reflection |
-| **GitHub contributions** | 20 | `username/feature` branches, **3+ merged Pull Requests**, 3+ issues closed by linked PRs |
-| **Code review** | 20 | Substantive reviews of others' PRs, one AI code review you adjudicate, one cross-team review |
-| **Teamwork / integration** | 15 | The assembled app builds and runs, the scene factory wires all slices, your README and issues stay current |
-
-Spread across the five assignments:
-
-| Area / Assignment | P0 | P1 | P2 | P3 | P4 | **Total** |
-| :---- | :--: | :--: | :--: | :--: | :--: | :--: |
-| Feature slice | | 4 | 6 | | 20 | **30** |
-| Testing | | 2 | 3 | | 10 | **15** |
-| GitHub contributions | 5 | 4 | 3 | | 8 | **20** |
-| Code review | | | 3 | 12 | 5 | **20** |
-| Teamwork / integration | 5 | | | 3 | 7 | **15** |
-| **Assignment total** | **10** | **10** | **15** | **15** | **50** | **100** |
+**See Canvas for the point value of each assignment and for every rubric.** Canvas is the
+authority on scoring. This document is the authority on what the work is.
 
 ### Extra credit, up to +10
 
@@ -69,7 +51,8 @@ Extra credit comes from a **fixed list**, not from your own scope declaration:
 | An enhancement beyond the one or two you are required to choose | +2 each |
 | An additional documented AI experiment | +2 |
 
-**Extra credit applies only if your `Feature Slice Complete` score is at least 16 out of 20.**
+**Extra credit applies only when your slice itself is finished.** Every Feature slice
+criterion on the Part 4 rubric must be scored Excellent, or at most one of them Proficient.
 Extra credit is for work on top of a finished slice, never instead of one. It is credited to the
 individual who did the work and applied on Part 4.
 
@@ -418,6 +401,9 @@ persistence**, and your **tests running**.
 
 ### Oct 2026 V3.0.0
 - `14-Oct` Updated language.
+- `14-Oct` Point tables replaced by a pointer to Canvas, so the document does not go stale
+  when the rubric is re-weighted. Extra-credit gate restated against rubric ratings rather
+  than a retired criterion name.
 - **Every project now consumes an external REST API**, with four rules defining what counts.
   Moved out of the enhancement menu, where it had been one option among many.
 - **Teams select one of ten published projects** rather than inventing their own. Each is built
