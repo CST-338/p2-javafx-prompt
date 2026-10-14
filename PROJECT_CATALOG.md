@@ -1,14 +1,14 @@
 # Project 2: The Ten Projects
 
-Your team **picks one of these**. You do not invent your own. Each one is built so that its
+Each team **picks one of these**. Do not invent your own. Each one is built so that its
 external API is load-bearing in exactly one slice, rather than bolted on at the end.
 
 In every project **Slice 1 is Accounts**: the `users` table with `userId`, `username`,
 `password` and `role`. A team of four builds four of the five slices, a team of three builds
-three. Whatever you cut goes on your WILL NOT DO list.
+three. Whatever gets cut goes on your WILL NOT DO list.
 
 Format: **core** is what the slice minimally is. *Beyond* items are stretch goals, eligible for
-extra credit, and the things you choose not to do belong on the WILL NOT DO list.
+extra credit, everything else belongs on the WILL NOT DO list.
 
 ## The APIs
 
@@ -27,11 +27,11 @@ All of these were tested and working in October 2026. None costs money.
 | I. Sky Log | NASA, `api.nasa.gov` | **free key, register it** |
 | J. Gallery Tour | Art Institute of Chicago, `api.artic.edu/api/v1/` | none |
 
-### Two things to know before you choose
+### Two things to know before choosing
 
 **Respect the rate limits.** Open Trivia DB asks for one request every five seconds.
 TheMealDB's key `1` is a shared development key. Everyone expects a descriptive `User-Agent`,
-which the starter already sends. If you are choosing **NASA**, register your own free key;
+which the starter already sends. If choosing **NASA**, register for your own free key;
 `DEMO_KEY` allows about 30 requests an hour per IP address, and on campus wifi the whole class
 shares that.
 
@@ -178,8 +178,6 @@ lesson in not over-fetching than the Met's fixed object payload.
 ---
 
 ## Picking well
-
-Some honest guidance.
 
 - **G, Monster Arena, has the most interesting API.** PokeAPI returns deeply nested JSON with
   references to other resources, so a naive "one call, one object" import does not work. You
