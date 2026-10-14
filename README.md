@@ -5,23 +5,24 @@
 > [`PROJECT_CATALOG.md`](PROJECT_CATALOG.md). Your team's starter repository is handed to you
 > in Part 0; you do not build the project from scratch.
 
-You will work on a team of **3 to 4 students** to build a JavaFX desktop application, but you
-are graded as an **individual**. Each of you owns one complete **feature slice** of the app end
+You will work as a team of **3 to 4 students** to build a JavaFX desktop application, but you
+are graded as an **individual**. Each of students owns one complete **feature slice** of the app end
 to end, and your grade is driven mostly by *how you work*: your GitHub contributions, your code
 reviews, and your teamwork, with concrete code milestones along the way.
 
-The project is **5 assignments** (Part 0 through Part 4) totalling **100 points**. Part 4 is
-worth **50**, half the project, because that is where your finished work comes together. Two
-further assignments sit alongside it: a **Presentation** (5 points, graded individually) and a
-**Teammate Evaluation** (10 points).
+The project is **5 assignments** (Part 0 through Part 4). 
+Part 4 is worth mentioning because it is about half the total points it is where your finished work comes together. 
+Two further assignments sit alongside the project: 
+  - a **Presentation** (5 points, graded individually) 
+  - a **Teammate Evaluation** (10 points).
 
 ---
 
 ## How Grading Works
 
-There is **no menu, no points target, and no penalty math**. Each assignment is graded **per
-student** against its own rubric. Your score reflects your own slice and your own process. A
-teammate's shortfall does not lower your grade, and you cannot inherit their points.
+Each assignment is graded **per student** against its own rubric. 
+Your score reflects your own slice and your own process. 
+A teammate's shortfall does not lower your grade, and you cannot inherit their points.
 
 ### Points per assignment
 
@@ -90,7 +91,7 @@ The bypass matters: it means **no slice waits for the Accounts slice to exist.**
 against `Session.currentUser()` from day one. The student who owns Accounts removes the bypass
 as part of finishing that slice.
 
-Do not restructure the starter. Build your slice inside it.
+Do not restructure the starter. Build your slice inside it. This is a valuable exercise in shoehorning new code into an existing structure.
 
 ---
 
@@ -148,15 +149,17 @@ The team's cut slices go on the README's **WILL NOT DO list**.
 
 At Part 4 you are graded on **scope accuracy**, not on ambition: shipped scope matches your Part
 1 declaration, *or* every change is an edit on the issue with a dated one-line reason ("cut timed
-quizzes Nov 20, the import took longer than planned"). Changing your mind is normal engineering.
-Changing it silently is not. **The change log is what is graded.**
+quizzes Nov 20, the import took longer than planned"). 
+*Changing your mind is normal engineering*; Changing it silently is not. 
+
+**The change log is what is graded.**
 
 ---
 
 ## Choose Your Project
 
-Teams **select one of the projects below**. You do not invent your own. Each is built so that its
-external API is load-bearing in exactly one slice.
+Teams **select one of the projects below**. _You do not invent your own._(sorry) 
+Each is built so that its external API is load-bearing in exactly one slice.
 
 The full slice breakdowns, with core and beyond items for all five slices of each project, are in
 [`PROJECT_CATALOG.md`](PROJECT_CATALOG.md). In every project **Slice 1 is Accounts**
@@ -206,7 +209,7 @@ TheMealDB and TheCocktailDB key `1` is a shared development key. Everyone expect
 
 ## The Enhancement Menu
 
-Your slice is the required floor. On top of it, **choose one Tier B item, or two Tier A items.**
+The slice is the required floor. On top of it, **choose one Tier B item, or two Tier A items.**
 
 **An enhancement may never be something your slice's core already requires.** If your slice is a
 browse-and-filter list, then a `TableView` is your core, and you need a different enhancement.
@@ -332,13 +335,13 @@ Part 4's review responsiveness criterion.
 
 ### If nobody reviews your PR
 
-Every merge to `main` needs a review. If no teammate reviews within **48 hours**, request a
-review from your cross-team buddy or from the instructor. **An unreviewed merge is not held
-against you when the request is visible on the PR.** You are not required to sit blocked.
+**Every merge to `main` needs a review.** 
+If no teammate reviews within **48 hours**, request a review from your cross-team buddy or from the TA. 
+**An unreviewed merge is not held against you when the request is visible on the PR.** You are not required to sit blocked.
 
 ### Your review index
 
-For Part 3, submit links to your **best three reviews**, each with one line: *what I caught*.
+For Part 3, submit links to the **three best reviews you wrote**, each with one line: *what I caught*.
 Those three are what get graded.
 
 ---
@@ -414,6 +417,7 @@ persistence**, and your **tests running**.
 ## Version History
 
 ### Oct 2026 V3.0.0
+- `14-Oct` Updated language.
 - **Every project now consumes an external REST API**, with four rules defining what counts.
   Moved out of the enhancement menu, where it had been one option among many.
 - **Teams select one of ten published projects** rather than inventing their own. Each is built
