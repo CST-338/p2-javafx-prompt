@@ -351,13 +351,9 @@ closed by a PR via `Closes #N`. Write **SMART** issues.
 > query-by-username; add JUnit tests using in-memory H2. Due end of Sprint 1."
 > **Bad:** "Make a database table."
 
-### The repo README is your dashboard
+### The repo DESIGN.md is up to date.
 
-Copy the provided `README.md` template into your repo root and keep it current. It is the first
-thing read when grading. It records: the project chosen, the **slice-ownership table**, the
-**WILL NOT DO list**, links to Issues and PRs with reviewers, enhancements chosen, AI review
-links, the extra-credit log, and build and run instructions. Where the README and the Issues
-disagree, **the Issues win**.
+The provided `DESIGN.md` is updated each week, if not more frequently,  It is the first thing read when grading. It records: the project chosen, the **slice-ownership table**, the **WILL NOT DO list**, links to Issues and PRs with reviewers, enhancements chosen, AI review links, the extra-credit log, and build and run instructions. Where the README and the Issues disagree, **the Issues win**.
 
 ---
 
