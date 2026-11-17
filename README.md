@@ -188,6 +188,9 @@ Respect published rate limits. Open Trivia DB asks for one request per five seco
 TheMealDB and TheCocktailDB key `1` is a shared development key. Everyone expects a descriptive
 `User-Agent`.
 
+**Step by step:** [`API_GUIDE.md`](API_GUIDE.md) turns a JSON response into Java objects with Gson
+(PokeAPI example, tests included), with an optional OkHttp section.
+
 ---
 
 ## The Enhancement Menu
