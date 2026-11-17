@@ -518,6 +518,7 @@ List<ThingJson> list = List.of(things);
 6. Write `XxxService.fetch(...)` (Step 7).
 7. **Persist through your DAO.** README API rule 1: a response that is printed and thrown away
    does not count. Your scene reads from your tables, not from the API.
+   Next: [`DAO_GUIDE.md`](DAO_GUIDE.md).
 
 If your API needs a key, do not commit it. Pass it at run time and read it with `ApiConfig`:
 

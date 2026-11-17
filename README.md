@@ -188,8 +188,16 @@ Respect published rate limits. Open Trivia DB asks for one request per five seco
 TheMealDB and TheCocktailDB key `1` is a shared development key. Everyone expects a descriptive
 `User-Agent`.
 
-**Step by step:** [`API_GUIDE.md`](API_GUIDE.md) turns a JSON response into Java objects with Gson
-(PokeAPI example, tests included), with an optional OkHttp section.
+**Step-by-step guides** (PokeAPI example, every listing compiled and tested against the starter):
+
+| Guide | Covers |
+|---|---|
+| [`API_GUIDE.md`](API_GUIDE.md) | JSON response to Java objects with Gson; optional OkHttp |
+| [`DAO_GUIDE.md`](DAO_GUIDE.md) | Saving imported data through a DAO; working offline |
+| [`FAILURE_TEST_GUIDE.md`](FAILURE_TEST_GUIDE.md) | The required API failure-path test, with a stub server (B6) |
+| [`SEED_DATA_GUIDE.md`](SEED_DATA_GUIDE.md) | Schema first, and seed data so your slice works alone |
+| [`CODE_REVIEW_GUIDE.md`](CODE_REVIEW_GUIDE.md) | Reviews that count, step by step on GitHub; the AI review |
+| [`TASK_GUIDE.md`](TASK_GUIDE.md) | Background import with `Task`: progress and cancel (B1) |
 
 ---
 
